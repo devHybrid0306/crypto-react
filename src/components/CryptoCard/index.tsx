@@ -21,7 +21,7 @@ import {
 
 const CryptoCard: React.FC<ICrypto> = (props) => {
   const { src, name, currency, change_value, change_percentage, buy, sell, bkg_color } = props;
-  const symbol = isIncreased(change_percentage) ? '▼' : '▲';
+  const symbol = isIncreased(change_percentage) ? '▲' : '▼';
 
   return (
     <CryptoCardWrapper>
