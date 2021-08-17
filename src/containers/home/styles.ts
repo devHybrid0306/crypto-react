@@ -72,16 +72,16 @@ export const BurgerNav = styled.div<{ show: boolean }>`
   position: fixed;
   top: 0;
   bottom: 0;
-  right: 0;
+  left: 0;
   background: white;
-  width: 246px;
+  width: 100%;
   z-index: 100;
   list-style: none;
   padding: 20px;
   display: flex;
   flex-direction: column;
   text-align: start;
-  transform: ${({ show }) => (show ? 'translateX(0)' : 'translateX(100%)')};
+  transform: ${({ show }) => (show ? 'translateX(0)' : 'translateX(-100%)')};
   transition: transform 0.2s;
 `;
 
