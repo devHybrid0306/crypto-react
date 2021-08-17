@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Cryptocurrencies built by Typescript, React.js, Redux Toolkit, Material UI and Styled-components
+http://cryptocurrencies-react.surge.sh/
+
 ## Available Scripts
 
 In the project directory, you can run:
